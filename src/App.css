@@ -1,69 +1,37 @@
-.container {
-    margin-top: -6%;
-    background: linear-gradient(rgb(9, 0, 67), rgb(27, 0, 161));
-    padding-bottom: 18%;
-    height: 450px;
-    overflow: hidden;
+@import url('https://fonts.google.com/share?selection.family=Raleway:ital,wght@0,100..900;1,100..900');
+
+.big-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.heading {
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    padding-top: 20%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.form-input {
-    width: 30%;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    font-size: 16px;
-    border: 2px rgb(67, 70, 231) solid;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px 3px;
-    border-radius: 10px;
-}
-
-.form-input:hover {
-    background-color: lightblue;
-}
-
-.enter-btn {
-    margin-top: 1%;
-    padding: 4px 19px;
-    font-weight: bold;
-    border-radius: 5px;
-    background-color: rgb(1, 1, 45);
-    color: white;
-    border-color: rgb(1, 1, 45);
-}
-
-.enter-btn:hover {
-    background-color: lightblue;
-    color: rgb(2, 1, 80);
-}
-
-.good-result {
-    color: white;
-    font-size: 20px; 
-    margin-top: 2%;
-}
-
-
-@media (max-width: 680px) {
-    .heading {
-        padding-top: 30%;
+@media (max-width: 500px) {
+    .nav-bar {
+        
     }
-    .form-input {
-        width: 60%;
+    .img-cont {
+        
     }
-
-    .enter-btn {
-        margin-top: 2%;
+    .cont-1 {
+       
     }
+    .header-box {
 
-    .good-result {
-        margin-top: 5%;
+    }
+    .header-box h1 {
+        
+    }
+    .today-box {
+       
+    }
+    .today-header {
+        
+    }  
+
+    @media (max-width: 400px) {
+     .header-box h1 {
+        
+     }
+     .today-header {
+        
+     }
     }
 }
