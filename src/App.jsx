@@ -40,10 +40,10 @@ function App() {
           const allCities = data.data.flatMap((country) => country.cities); // Flatten all cities
           setCities(allCities); // Populate the cities state
         } else {
-          setError(`<h1 className="text-center text-xl text-red-500">Failed to fetch cities.</h1>}`);
+          setError('Failed to fetch cities.');
         }
       } catch (err) {
-        setError(`<h1 className="text-center text-xl text-red-500">An error occurred while fetching cities.</h1>}`);
+        setError('An error occurred while fetching cities');
       }
     };
 
@@ -87,7 +87,7 @@ function App() {
     e.preventDefault();
 
     if (!location) {
-      setError(`{<h1 className="text-center text-xl text-red-500">Please select a city!</h1>}`);
+      setError('Please select a city!');
       return;
     }
 
@@ -97,7 +97,7 @@ function App() {
       );
 
       if (!response.ok) {
-        throw new Error(`{<h1 className="text-center text-xl text-red-500">Location not found.</h1>}`);
+        throw new Error('Location not found');
       }
 
       const data = await response.json();
@@ -168,7 +168,7 @@ function App() {
         </button>
       </form>
 
-      {error && <p style={{ color: "red", fontSize: "15px" }}>{error}</p>}
+      {error && <p style={{ color: "red", fontSize: "18px", textAlign: "center", marginTop: "2%" }}>{error}</p>}
       {temperature !== null && pressure !== null && humidity !== null && visibility !== null && (
         <div className="bg-gradient-to-r from-fuchsia-600 to-gray-900 mt-6 md:mt-32 py-6 w-[96%] ml-[2%] md:w-[90%] md:ml-[5%] shadow-md border-spacing-8 shadow-slate-600 rounded-xl">
           <div className="pl-4 flex gap-2">
