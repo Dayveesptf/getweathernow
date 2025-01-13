@@ -198,7 +198,7 @@ function App() {
           </div>
       )}
       </div>
-      <div className="mt-8 mb-8 text-center"><a href="mailto:dtechservices@gmail.com" className="text-fuchsia-700">dtechservices@gmail.com</a></div>
+      <div className="mt-8 mb-8 text-center"><a href="mailto:dtechservices2@gmail.com" className="text-fuchsia-700">dtechservices2@gmail.com</a></div>
     </div>
   );
 }
