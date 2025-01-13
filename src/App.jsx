@@ -132,7 +132,7 @@ function App() {
         {/* Search Bar for City */}
         <input
           type="text"
-          className="w-[80%] md:w-[60%] ml-[10%] md:ml-[20%] mx-auto mt-28 bg-gray-800 items-center py-4 md:py-6 text-lg md:text-1xl lg:text-2xl md:pl-12 pl-4 rounded-xl text-white"
+          className="w-[80%] md:w-[60%] ml-[10%] md:ml-[20%] mx-auto mt-28 bg-gray-800 items-center py-4 md:py-6 text-lg md:text-1xl lg:text-2xl md:pl-12 pl-4 rounded-xl text-white input-field"
           placeholder="🔎 Search location... (min 3 letters)"
           value={location}
           onChange={handleSearchChange}
